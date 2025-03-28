@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a **PhD candidate** at the European Centre for Advanced Research in Economics and Statistics ([ECARES][<https://ecares.ulb.be/>]) at the [Université Libre de Bruxelles][<https://www.ulb.be/>] and **Research Economist** for the [National Bank of Belgium][<https://www.nbb.be/en>].
+Welcome! I am a **PhD candidate** at the European Centre for Advanced Research in Economics and Statistics (<a href="https://ecares.ulb.be/">ECARES</a>) at the <a href="https://www.ulb.be/">Université Libre de Bruxelles</a> and **Research Economist** for the <a href="https://www.nbb.be/en">National Bank of Belgium</a>.
 
 My main research interests are International Trade and Production Networks.
