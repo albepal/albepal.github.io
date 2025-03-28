@@ -22,7 +22,7 @@ repository               : "albepal/albepal.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bio_pic.png"
+  avatar           : "bio_pic.jpg"
   name             : "Alberto Palazzolo"
   pronouns         : # example: "she/her"  
   bio              : "PhD candidate at ECARES (ULB), Research Economist at the NBB"
