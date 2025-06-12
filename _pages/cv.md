@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+You can find my CV <a href="https://albepal.github.io/files/HERMREG_Report.pdf" style="text-decoration: none" target="_blank">here</a> <a style="color: gray; text-decoration: none" target="_blank"></a>
