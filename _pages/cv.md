@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-You can find my CV <a href="https://albepal.github.io/files/HERMREG_Report.pdf" style="text-decoration: none" target="_blank">here</a> <a style="color: gray; text-decoration: none" target="_blank"></a>
+You can find my CV <a href="https://albepal.github.io/files/CV_Palazzolo.pdf" style="text-decoration: none" target="_blank">here</a> <a style="color: gray; text-decoration: none" target="_blank"></a>
