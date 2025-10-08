@@ -12,7 +12,17 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
+{% assign show_author_profile = false %}
+{% if page.author_profile or layout.author_profile %}
+  {% assign show_author_profile = true %}
+{% endif %}
+
+{% assign show_sidebar = show_author_profile %}
+{% if page.sidebar %}
+  {% assign show_sidebar = true %}
+{% endif %}
+
+<div id="main" class="{% if show_sidebar %}has-sidebar{% else %}no-sidebar{% endif %}" role="main">
   {% include sidebar.html %}
 
   <div class="archive">

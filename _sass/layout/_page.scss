@@ -34,6 +34,24 @@
   }
 }
 
+#main.no-sidebar {
+  @include breakpoint($large) {
+    padding-left: 0;
+    margin-left: -1rem; // shift content ~1cm left on wide screens
+    margin-right: 1rem;
+
+    .page,
+    .archive {
+      float: none;
+      width: 100%;
+      max-width: none;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
