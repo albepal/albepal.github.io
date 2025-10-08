@@ -39,6 +39,7 @@ $sidebar-screen-min-width   : 1024px;
     --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
     --global-masthead-link-color        : #{$dark-gray};
     --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
+    --masthead-bg-color                 : #fff;
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
