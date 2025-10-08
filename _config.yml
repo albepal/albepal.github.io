@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Alberto Palazzolo"
 title_separator          : "-"
 name                     : &name "Alberto Palazzolo"
-description              : &description "PhD candidate at ECARES (ULB) and Research Economist at the National Bank of Belgium" 
+description              : &description "PhD candidate at ECARES (ULB)" # and Research Economist at the National Bank of Belgium 
 url                      : https://albepal.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "albepal/albepal.github.io"
@@ -299,19 +299,15 @@ timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
-  - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
 
 # Mimic GitHub Pages with --safe
 whitelist:
-  #- jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  #- jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
 
