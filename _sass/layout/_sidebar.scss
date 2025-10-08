@@ -127,14 +127,14 @@
     margin-bottom: 10px;
   }
 }
+
+.author__pronouns {
   display: none;
+  margin: 0;
+
   @media screen and (min-width: 1024px) {
     display: block;
   }
-}
-
-.author__pronouns {
-  margin: 0;
 
   @include breakpoint($large) {
     margin-top: 10px;
