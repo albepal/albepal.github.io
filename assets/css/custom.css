@@ -64,3 +64,9 @@
     margin-top: 4em;
   }
 }
+
+.author__content,
+.author__bio,
+.author__urls li {
+  line-height: 1.4;
+}
