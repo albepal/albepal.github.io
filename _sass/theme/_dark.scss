@@ -49,4 +49,10 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+    --research-card-bg                  : #{mix(#fff, $background, 12%)};
+    --research-card-border              : #{mix(#fff, $background, 25%)};
+    --research-card-shadow              : 0 18px 35px rgba(0, 0, 0, 0.45);
+    --research-card-shadow-hover        : 0 20px 45px rgba(0, 0, 0, 0.5);
+    --research-accent-color             : #{$link};
+    --research-muted-color              : #{$light-gray};
 }

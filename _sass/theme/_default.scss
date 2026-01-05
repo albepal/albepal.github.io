@@ -43,4 +43,10 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
+    --research-card-bg                  : #ffffff;
+    --research-card-border              : #eaedf2;
+    --research-card-shadow              : 0 18px 35px rgba(15, 23, 42, 0.08);
+    --research-card-shadow-hover        : 0 20px 45px rgba(15, 23, 42, 0.12);
+    --research-accent-color             : var(--global-link-color);
+    --research-muted-color              : #{$light-gray};
 }

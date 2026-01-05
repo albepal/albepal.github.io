@@ -1,0 +1,219 @@
+.page-research #main {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.research-page {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  width: 100%;
+  align-items: stretch;
+  margin: 0;
+}
+
+.research-section__title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--global-text-color);
+}
+
+.research-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  width: 100%;
+}
+
+.research-card {
+  background-color: var(--research-card-bg);
+  border: 1px solid var(--research-card-border);
+  border-radius: 8px;
+  box-shadow: var(--research-card-shadow);
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  text-align: left;
+}
+
+.research-card:hover,
+.research-card:focus-within {
+  transform: translateY(-3px);
+  box-shadow: var(--research-card-shadow-hover);
+}
+
+.research-card__title {
+  font-size: 0.66rem;
+  font-weight: 500;
+  margin: 0;
+  color: var(--global-text-color);
+}
+
+.research-card__authors {
+  margin: 0.2rem 0 0;
+  color: var(--research-muted-color);
+  font-size: 0.5rem;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.research-card__meta {
+  margin-top: 0.35rem;
+  font-size: 0.58rem;
+  line-height: 1.3;
+  color: var(--research-muted-color);
+}
+
+.research-card__meta-label {
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.54rem;
+  color: var(--research-accent-color);
+  margin-right: 0.35rem;
+}
+
+.research-card__resources {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.2rem;
+  font-size: 0.52rem;
+}
+
+.action-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-weight: 500;
+  color: var(--research-accent-color);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.action-link:hover,
+.action-link:focus {
+  color: var(--global-link-color-hover);
+  text-decoration: underline;
+}
+
+.action-link--disabled {
+  color: var(--research-muted-color);
+  cursor: default;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.action-link--disabled:hover,
+.action-link--disabled:focus {
+  color: var(--research-muted-color);
+  text-decoration: none;
+}
+
+.abstract-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+}
+
+.abstract-toggle:focus {
+  outline: 2px solid var(--research-accent-color);
+  outline-offset: 2px;
+}
+
+.abstract-toggle .chevron {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+  margin-right: 0.25rem;
+}
+
+.abstract-toggle .chevron.rotated {
+  transform: rotate(135deg);
+}
+
+.research-card__dot {
+  color: var(--research-muted-color);
+  margin: 0 0.3rem;
+}
+
+.research-card__link {
+  position: relative;
+}
+
+.research-card__link::after {
+  content: "\2197";
+  font-size: 0.85rem;
+}
+
+.research-card__note {
+  margin-top: 0.2rem;
+  font-size: 0.52rem;
+  color: var(--research-muted-color);
+}
+
+.research-card__note--highlight {
+  font-weight: 600;
+  font-style: italic;
+  color: var(--research-accent-color);
+}
+
+.research-card__abstract {
+  display: none;
+  margin-top: 0.25rem;
+  padding-top: 0.25rem;
+  border-top: 1px solid var(--research-card-border);
+  font-size: 0.6rem;
+  color: var(--global-text-color);
+}
+
+.research-card__abstract.expanded {
+  display: block;
+}
+
+.research-card__abstract p {
+  margin: 0 0 0.85rem;
+}
+
+.research-card__abstract p:last-child {
+  margin-bottom: 0;
+}
+
+.page__content {
+  .research-card__title {
+    font-size: 0.72rem;
+  }
+
+  .research-card__authors {
+    font-size: 0.55rem;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+  }
+
+  .research-card__resources,
+  .research-card__note {
+    font-size: 0.56rem;
+  }
+
+  .research-card__abstract {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .research-cards {
+    gap: 0.7rem;
+  }
+
+  .research-card__title {
+    font-size: 0.78rem;
+  }
+}

@@ -41,8 +41,10 @@
       float: none;
       width: 100%;
       max-width: none;
-      margin-left: -1cm;
-      margin-right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }
