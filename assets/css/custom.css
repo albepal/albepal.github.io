@@ -1,0 +1,34 @@
+/* Custom overrides for larger author avatar and sidebar width. */
+@media (min-width: 57.8125em) {
+  .sidebar {
+    width: 400px;
+    max-width: 400px;
+  }
+
+  .page {
+    width: calc(100% - 400px);
+    padding-left: 2rem;
+    padding-right: 0;
+    margin-right: 0;
+  }
+}
+
+.author__avatar {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.author__avatar img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.sidebar,
+.author__content,
+.author__urls-wrapper,
+.author__urls {
+  text-align: center;
+}
