@@ -1,13 +1,15 @@
 /* Custom overrides for larger author avatar and sidebar width. */
-@media (min-width: 57.8125em) {
+@media (min-width: 64em) {
   .sidebar {
     width: 400px;
     max-width: 400px;
   }
 
   .page {
-    width: calc(100% - 460px);
-    padding-left: 2rem;
+    margin-left: 440px;
+    width: auto;
+    float: none;
+    padding-left: 0;
     padding-right: 0;
     margin-right: 0;
   }
@@ -26,9 +28,39 @@
   height: auto;
 }
 
-.sidebar,
+.sidebar {
+  text-align: center;
+}
+
 .author__content,
 .author__urls-wrapper,
 .author__urls {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.author__name,
+.author__bio,
+.author__urls li,
+.author__urls-wrapper .btn {
   text-align: center;
+  margin-top: 2em;
+}
+
+.author__content {
+  font-size: 1em;
+}
+
+.author__bio {
+  font-size: 1em;
+}
+
+@media (min-width: 64em) {
+  #main.home-main .page__content {
+    margin-top: 4em;
+  }
 }
