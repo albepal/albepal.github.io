@@ -68,5 +68,12 @@
 .author__content,
 .author__bio,
 .author__urls li {
-  line-height: 1.4;
+  line-height: 0.001;
+}
+
+.author__content,
+.author__content p,
+.author__bio,
+.author__urls li {
+  line-height: 0.001 !important;
 }
