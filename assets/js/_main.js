@@ -51,6 +51,12 @@ $(document).ready(function () {
   // FitVids init
   fitvids();
 
+  // Ensure the follow menu is closed on mobile page load
+  if ($(window).width() < scssLarge) {
+    $(".author__urls").hide();
+    $(".author__urls-wrapper button").removeClass("open");
+  }
+
   // Follow menu drop down
   $(".author__urls-wrapper button").on("click", function () {
     $(".author__urls").fadeToggle("fast", function () { });
