@@ -14,6 +14,6 @@ redirect_from:
 ## Work in progress
 *  **Belgian Regions in Local and Global Value Chains** <small style="color: gray;">with Bastien Bernon and Glenn Magerman</small>
 
-* **The Transmission of Monetary Policy Shocks in Firm-to-Firm Networks** <small style="color: gray;">with Emmanuel Dhyne and Glenn Magerman</small>
+* **The transmission of Euro area monetary policy shocks in the Belgian firm-to-firm production network** <small style="color: gray;">with Emmanuel Dhyne and Glenn Magerman</small>
 
-* **Firm-level networks: from macro to micro and back** <small style="color: gray;">with A. Borsos, E. Dhyne, D. Kulikov, A. Linarello, G. Magerman, A. Paulus and G. Romanini</small>
+* **Granularity in firm-to-firm production networks: a multi-country analysis** <small style="color: gray;">with A. Borsos, E. Dhyne, D. Kulikov, A. Linarello, G. Magerman, A. Paulus and G. Romanini</small>

@@ -64,6 +64,18 @@
   margin-top: 2em;
 }
 
+@media (max-width: 63.9375em) {
+  .author__urls-wrapper {
+    text-align: center;
+  }
+
+  .author__urls-wrapper button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .author__content {
   font-size: 1em;
 }
