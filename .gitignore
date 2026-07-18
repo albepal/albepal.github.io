@@ -12,3 +12,6 @@ Gemfile.lock
 node_modules
 package-lock.json
 vendor/
+
+# Ignore macOS Finder metadata throughout the repository
+.DS_Store
