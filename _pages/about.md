@@ -2,13 +2,11 @@
 permalink: /
 title: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Welcome! I am a **PhD candidate** at the European Centre for Advanced Research in Economics and Statistics (<a href="https://ecares.ulb.be/">ECARES</a>) at the <a href="https://www.ulb.be/">Université Libre de Bruxelles</a>. 
-
-Between October 2023 and September 2025, I worked as a Research Economist at the <a href="https://www.nbb.be/en">National Bank of Belgium</a>.
+Welcome! I am a **PhD candidate** at the European Centre for Advanced Research in Economics and Statistics ([ECARES](https://ecares.ulb.be/)) at the [Université libre de Bruxelles](https://www.ulb.be/), and an **Economist** at the [National Bank of Belgium](https://www.nbb.be/en).
 
 My main research interests are **International Trade** and **Production Networks**.
