@@ -10,10 +10,10 @@ redirect_from:
   *With Glenn Magerman, Joep Konings, Niccolò Consonni and Federico Gallina.*  
   HERMREG model manual.
 
-* [Strategic Global Supply Chains, China and the Role of Critical Raw Materials for the European Union](https://ecares.ulb.be/wp-content/uploads/2025/04/Strategic-Global-Supply-Chains-China-and-the-Role-of-Critical-Raw-Materials-for-the-European-Union.pdf)  
+* [Strategic Global Supply Chains, China and the Role of Critical Raw Materials for the European Union](/files/Strategic-Global-Supply-Chains-China-and-the-Role-of-Critical-Raw-Materials-for-the-European-Union.pdf)  
   *With Joep Konings, Glenn Magerman, Niccolò Consonni and Robin Schindowski.*  
   ECARES WP.
 
-* [The impact of US 2025 tariffs on the Belgian economy](https://ecares.ulb.be/wp-content/uploads/2025/04/The-impact-of-US-2025-tariffs-on-the-Belgian-economy.pdf)  
+* [The impact of US 2025 tariffs on the Belgian economy](/files/The-impact-of-US-2025-tariffs-on-the-Belgian-economy.pdf)  
   *With Glenn Magerman.*  
   WEWIS-ECOOM report, 2025.
