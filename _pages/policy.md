@@ -6,16 +6,14 @@ redirect_from:
   - /policy
 ---
 
-## Policy work
-
 * [Estimating Belgian sector-regional value added: a manual for ensemble predictions for the HERMREG model](https://albepal.github.io/files/HERMREG_Report.pdf)  
   *With Glenn Magerman, Joep Konings, Niccolò Consonni and Federico Gallina.*  
-  Published as a manual for the HERMREG model.
+  HERMREG model manual.
 
-* [Strategic Global Supply Chains, China and the Role of Critical Raw Materials for the European Union](https://ecares.ulb.be/all-publications/)  
+* [Strategic Global Supply Chains, China and the Role of Critical Raw Materials for the European Union](https://ecares.ulb.be/wp-content/uploads/2025/04/Strategic-Global-Supply-Chains-China-and-the-Role-of-Critical-Raw-Materials-for-the-European-Union.pdf)  
   *With Joep Konings, Glenn Magerman, Niccolò Consonni and Robin Schindowski.*  
-  Published by ECARES.
+  ECARES WP.
 
-* [The impact of US 2025 tariffs on the Belgian economy](https://ecares.ulb.be/all-publications/)  
+* [The impact of US 2025 tariffs on the Belgian economy](https://ecares.ulb.be/wp-content/uploads/2025/04/The-impact-of-US-2025-tariffs-on-the-Belgian-economy.pdf)  
   *With Glenn Magerman.*  
-  2025 report commissioned by WEWIS-ECOOM.
+  WEWIS-ECOOM report, 2025.
