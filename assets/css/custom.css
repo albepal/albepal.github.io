@@ -61,7 +61,23 @@
 .author__urls li,
 .author__urls-wrapper .btn {
   text-align: center;
-  margin-top: 2em;
+}
+
+.author__name {
+  margin-top: 1.25em;
+}
+
+.author__bio {
+  margin-top: 0.6em;
+}
+
+.author__urls-wrapper .btn {
+  margin-top: 1em;
+}
+
+.author__urls li {
+  margin-top: 0.35em;
+  margin-bottom: 0;
 }
 
 @media (max-width: 63.9375em) {

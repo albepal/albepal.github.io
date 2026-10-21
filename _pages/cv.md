@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-You can download a copy of my CV <a href="/files/CV_Palazzolo.pdf" style="text-decoration: none" target="_blank">here</a>.
+You can download a copy of my CV <a href="/files/CV_Palazzolo.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 
 <style>
 .cv-embed {

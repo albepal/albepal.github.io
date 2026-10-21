@@ -7,13 +7,18 @@ redirect_from:
 ---
 
 ## Working papers
-* **Deglobalization and the Reorganization of Supply chains: Effects on Regional Inequalities in the EU** <small style="color: gray;">with Glenn Magerman</small><br>
-  <a href="/files/wp464en.pdf" target="_blank" rel="noopener noreferrer">NBB WP</a><br>
-  <small>Best Paper Award <a href="https://iri.jrc.ec.europa.eu/concordi-2023" target="_blank" rel="noopener noreferrer">CONCORDi 2023</a></small>
+* **Optimal Trade, Industrial, and Public Policy Mix in Economic Unions with Heterogeneous Locations**
+  <span class="pub-authors">with Glenn Magerman</span>
+  <span class="pub-links"><a class="pub-link" href="/files/wp464en.pdf" target="_blank" rel="noopener noreferrer">NBB WP</a> <span class="pub-award">Best Paper Award, <a href="https://iri.jrc.ec.europa.eu/concordi-2023" target="_blank" rel="noopener noreferrer">CONCORDi 2023</a></span></span>
+{: .pub-list}
 
 ## Work in progress
-* **Belgian Regions in Local and Global Value Chains** <small style="color: gray;">with Bastien Bernon and Glenn Magerman</small>
+* **Belgian Regions in Local and Global Value Chains**
+  <span class="pub-authors">with Bastien Bernon and Glenn Magerman</span>
 
-* **The transmission of Euro area monetary policy shocks in the Belgian firm-to-firm production network** <small style="color: gray;">with Emmanuel Dhyne and Glenn Magerman</small>
+* **The Transmission of Euro Area Monetary Policy Shocks in the Belgian Firm-to-Firm Production Network**
+  <span class="pub-authors">with Emmanuel Dhyne and Glenn Magerman</span>
 
-* **Beyond firm size: network position and shock transmission in firm-to-firm production networks across five economies** <small style="color: gray;">with A. Borsos, E. Dhyne, D. Kulikov, A. Linarello, G. Magerman, A. Paulus and G. Romanini</small>
+* **Beyond Firm Size: Network Position and Shock Transmission in Firm-to-Firm Production Networks across Five Economies**
+  <span class="pub-authors">with A. Borsos, E. Dhyne, D. Kulikov, A. Linarello, G. Magerman, A. Paulus and G. Romanini</span>
+{: .pub-list}

@@ -96,6 +96,10 @@
   img {
     width: 400px;
     max-width: 100%;
+    // keep the photo a circle even though the source image is not square
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center top;
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -174,6 +178,15 @@
 
   button {
     margin-bottom: 0;
+    // the default inverse button is grey-on-white and turns white-on-white on hover
+    color: var(--masthead-bg-color) !important;
+    border-color: var(--masthead-bg-color) !important;
+
+    &:hover,
+    &.open {
+      color: #fff !important;
+      background-color: var(--masthead-bg-color);
+    }
 
     @include breakpoint($large) {
       display: none;
