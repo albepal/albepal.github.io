@@ -14,7 +14,7 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* System typefaces */
-$serif                      : "Merriweather", "Georgia", serif;
+$serif                      : "Source Serif 4", "Georgia", serif;
 $sans-serif                 : $serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
@@ -39,7 +39,7 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-$global-font-family         : "Merriweather", "Georgia", serif;
+$global-font-family         : $serif;
 $header-font-family         : $global-font-family;
 $caption-font-family        : $serif;
 
