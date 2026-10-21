@@ -257,7 +257,7 @@
   }
 
   a {
-    display: block;
+    display: inline-block; // clickable area is the link only, not the whole row
     margin-bottom: 5px;
     padding-right: 5px;
     padding-top: 2px;
