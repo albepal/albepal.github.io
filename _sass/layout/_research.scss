@@ -81,3 +81,52 @@
     color: #c9a227;
   }
 }
+
+.pub-abstract {
+  margin-top: 0.45em;
+  font-size: $type-size-6;
+
+  summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    color: var(--global-link-color);
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "\25B8";
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+
+    &:hover {
+      color: var(--global-link-color-hover);
+    }
+  }
+
+  &[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  p {
+    margin: 0.5em 0 0;
+    padding: 0.75em 1em;
+    max-width: 60em;
+    font-size: 1.1em;
+    line-height: 1.55;
+    text-align: left;
+
+    @include breakpoint($medium) {
+      text-align: justify;
+      hyphens: auto;
+    }
+    color: var(--global-text-color);
+    background-color: var(--global-code-background-color);
+    border-radius: $border-radius;
+  }
+}
