@@ -8,6 +8,10 @@ redirect_from:
 
 ## Policy papers
 
+* **[The Propagation of Shocks across the Production Network and Implications for Monetary Policy](https://www.ecb.europa.eu/pub/pdf/scpops/ecb.op392.en.pdf)**
+  <span class="pub-authors">with S. Gebauer, A. Nakov, G. Nuño, C. Osbat, G. Paz-Pardo, A. Paulus, J. Quintana and M. T. Valderrama</span>
+  <span class="pub-venue">ECB Occasional Paper No. 392, 2026</span>
+
 * **[Estimating Belgian Sector-Regional Value Added: A Manual for Ensemble Predictions for the HERMREG Model](/files/HERMREG_Report.pdf)**
   <span class="pub-authors">with Glenn Magerman, Joep Konings, Niccolò Consonni and Federico Gallina</span>
   <span class="pub-venue">HERMREG model manual</span>
