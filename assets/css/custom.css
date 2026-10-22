@@ -34,17 +34,80 @@
 
 /* ---------- Top bar ---------- */
 .greedy-nav button {
-  border-radius: 7px;
-  background-color: #4f6a9d;   /* solid: the links it sits over must not show through */
+  width: 42px;
+  height: 36px;
+  top: 50%;
+  margin-top: -18px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 8px;
+  /* the header's own blue, so it reads as an outline, yet still covers any link under it */
+  background-color: var(--masthead-bg-color);
+  transition: border-color 0.15s ease, background-color 0.15s ease;
 }
 
+.greedy-nav button:hover,
+.greedy-nav button.close {
+  border-color: #fff;
+  background-color: #3a5a96;
+}
+
+/* three thin rounded bars instead of the theme's thick block */
+.greedy-nav .navicon,
+.greedy-nav .navicon:before,
+.greedy-nav .navicon:after {
+  width: 20px;
+  height: 2px;
+  border-radius: 2px;
+}
+
+.greedy-nav .navicon:before {
+  top: -6px;
+}
+
+.greedy-nav .navicon:after {
+  bottom: -6px;
+}
+
+.greedy-nav .close .navicon:before,
+.greedy-nav .close .navicon:after {
+  top: 0;
+  bottom: auto;
+}
+
+/* the drop-down: a white card with dark links, one hairline between them */
 .greedy-nav .hidden-links {
-  border-radius: 8px;
-  box-shadow: 0 6px 22px rgba(27, 39, 51, 0.14);
+  min-width: 170px;
+  padding: 6px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(27, 39, 51, 0.16);
+}
+
+.greedy-nav .hidden-links li {
+  background: transparent;
+  border-bottom: 1px solid var(--line);
+}
+
+.greedy-nav .hidden-links li:last-child {
+  border-bottom: 0;
 }
 
 .greedy-nav .hidden-links a {
+  padding: 10px 14px;
+  border-radius: 6px;
   color: var(--ink);
+}
+
+.greedy-nav .hidden-links a:hover,
+.greedy-nav .hidden-links a.active {
+  color: var(--accent);
+  background: var(--tint);
+}
+
+.greedy-nav .hidden-links a::before {
+  display: none;
 }
 
 /* ---------- Sidebar profile ---------- */
