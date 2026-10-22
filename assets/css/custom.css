@@ -1,6 +1,5 @@
 /* Site-wide polish on top of the academicpages theme: navy accent throughout,
-   a gradient top bar with pill navigation, a compact sidebar profile card and
-   a row of icon links. */
+   a compact sidebar profile card and a row of icon links. */
 :root {
   --ink: #1c2b45;
   --muted: #6a7682;
@@ -34,25 +33,9 @@
 }
 
 /* ---------- Top bar ---------- */
-.masthead {
-  background: linear-gradient(90deg, var(--accent-dk), var(--accent));
-  box-shadow: 0 1px 8px rgba(27, 39, 51, 0.12);
-}
-
-.masthead::after {
-  display: none;
-}
-
-.masthead .greedy-nav,
-.masthead .masthead__menu-item {
-  background: transparent;
-}
-
 .greedy-nav button {
-  top: 50%;
-  transform: translateY(-50%);
   border-radius: 7px;
-  background-color: rgba(255, 255, 255, 0.16);
+  background-color: #4f6a9d;   /* solid: the links it sits over must not show through */
 }
 
 .greedy-nav .hidden-links {
