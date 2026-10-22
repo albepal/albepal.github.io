@@ -8,16 +8,14 @@
   padding: 0;
 
   > li {
-    margin: 0 0 0.9em;
-    padding: 0.9em 1.15em;
-    border: 1px solid var(--global-border-color);
-    border-radius: 10px;
+    margin: 0 0 1.1em;
+    padding: 0.15em 0 0.15em 1em;
+    border-left: 3px solid var(--global-border-color);
     line-height: 1.5;
-    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    transition: border-color 0.2s ease;
 
     &:hover {
-      border-color: var(--masthead-bg-color);
-      box-shadow: 0 4px 18px rgba(27, 39, 51, 0.06);
+      border-left-color: var(--masthead-bg-color);
     }
 
     // blank lines between items make kramdown wrap each one in a <p>
