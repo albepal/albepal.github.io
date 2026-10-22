@@ -8,14 +8,16 @@
   padding: 0;
 
   > li {
-    margin: 0 0 1.1em;
-    padding: 0.15em 0 0.15em 1em;
-    border-left: 3px solid var(--global-border-color);
+    margin: 0 0 0.9em;
+    padding: 0.9em 1.15em;
+    border: 1px solid var(--global-border-color);
+    border-radius: 10px;
     line-height: 1.5;
-    transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 
     &:hover {
-      border-left-color: var(--masthead-bg-color);
+      border-color: var(--masthead-bg-color);
+      box-shadow: 0 4px 18px rgba(27, 39, 51, 0.06);
     }
 
     // blank lines between items make kramdown wrap each one in a <p>
@@ -56,10 +58,12 @@
 
 .pub-link {
   display: inline-block;
-  padding: 0.1em 0.65em;
-  border: 1px solid var(--global-link-color);
-  border-radius: $border-radius;
+  padding: 0.1em 0.75em;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   color: var(--global-link-color);
+  background-color: #eceff5;
   text-decoration: none;
 
   &:visited {
@@ -69,6 +73,7 @@
   &:hover {
     color: #fff;
     background-color: var(--global-link-color);
+    text-decoration: none !important;
   }
 }
 
@@ -126,7 +131,8 @@
       hyphens: auto;
     }
     color: var(--global-text-color);
-    background-color: var(--global-code-background-color);
-    border-radius: $border-radius;
+    background-color: #f8fafb;
+    border-left: 3px solid var(--masthead-bg-color);
+    border-radius: 0 8px 8px 0;
   }
 }

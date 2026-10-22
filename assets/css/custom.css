@@ -1,12 +1,102 @@
-/* Custom overrides for larger author avatar and sidebar width. */
+/* Site-wide polish on top of the academicpages theme: navy accent throughout,
+   a gradient top bar with pill navigation, a compact sidebar profile card and
+   a row of icon links. */
+:root {
+  --ink: #1c2b45;
+  --muted: #6a7682;
+  --accent: #2E4E8A;
+  --accent-dk: #1f3766;
+  --tint: #eceff5;
+  --line: #e4e8ec;
+  --bg-soft: #f8fafb;
+}
+
+/* ---------- Headings ---------- */
+.page__title,
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  color: var(--ink);
+}
+
+.page__content h2 {
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid var(--tint);
+}
+
+/* ---------- Links: navy, underlined on hover ---------- */
+.page__content a {
+  text-decoration: none;
+}
+
+.page__content a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Top bar ---------- */
+.masthead {
+  background: linear-gradient(90deg, var(--accent-dk), var(--accent));
+  box-shadow: 0 1px 8px rgba(27, 39, 51, 0.12);
+}
+
+.masthead::after {
+  display: none;
+}
+
+.masthead .greedy-nav,
+.masthead .masthead__menu-item {
+  background: transparent;
+}
+
+.greedy-nav .visible-links li:not(:first-child) a {
+  margin: 0 0.15rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: 7px;
+  color: rgba(255, 255, 255, 0.85);
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.greedy-nav .visible-links li:not(:first-child) a:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.greedy-nav .visible-links li:not(:first-child) a.active {
+  color: #fff;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* the theme's underline-on-hover bar fights the pill */
+.greedy-nav .visible-links a::before {
+  display: none;
+}
+
+.greedy-nav button {
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+
+.greedy-nav .hidden-links {
+  border-radius: 8px;
+  box-shadow: 0 6px 22px rgba(27, 39, 51, 0.14);
+}
+
+.greedy-nav .hidden-links a {
+  color: var(--ink);
+}
+
+/* ---------- Sidebar profile ---------- */
 @media (min-width: 64em) {
   .sidebar {
-    width: 400px;
-    max-width: 400px;
+    width: 300px;
+    max-width: 300px;
   }
 
   .page {
-    margin-left: 440px;
+    margin-left: 360px;
     width: auto;
     float: none;
     padding-left: 0;
@@ -15,99 +105,148 @@
   }
 }
 
-.author__avatar {
+.sidebar {
+  text-align: center;
+}
+
+.author__avatar,
+.author__avatar img {
   width: 100%;
-  max-width: 400px;
+  max-width: 240px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .author__avatar img {
-  width: 100%;
-  max-width: 400px;
   height: auto;
-}
-
-.sidebar {
-  text-align: center;
+  padding: 0 !important;
+  border: 0 !important;
+  box-shadow: 0 6px 22px rgba(27, 39, 51, 0.14);
 }
 
 .author__content,
 .author__urls-wrapper {
   display: block;
   width: 100%;
-  max-width: 320px;
+  max-width: 280px;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
-}
-
-.author__urls {
-  width: 100%;
-  max-width: 320px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-}
-
-@media (min-width: 64em) {
-  .author__urls {
-    display: block;
-  }
-}
-
-.author__name,
-.author__bio,
-.author__urls li,
-.author__urls-wrapper .btn {
+  padding: 0;
   text-align: center;
 }
 
 .author__name {
-  margin-top: 1.25em;
-}
-
-.author__bio {
-  margin-top: 0.6em;
-}
-
-.author__urls-wrapper .btn {
   margin-top: 1em;
-}
-
-.author__urls li {
-  margin-top: 0.35em;
-  margin-bottom: 0;
-}
-
-@media (max-width: 63.9375em) {
-  .author__urls-wrapper {
-    text-align: center;
-  }
-
-  .author__urls-wrapper button {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.author__content {
-  font-size: 1em;
+  font-size: 1.35rem !important;
+  color: var(--ink);
 }
 
 .author__bio {
-  font-size: 1em;
-  line-height: 1.4;
+  margin-top: 0.75em;
+  padding-top: 0.75em;
+  border-top: 1px solid var(--line);
+  font-size: 0.95em !important;
+  line-height: 1.45;
   white-space: pre-line;
+  color: var(--muted);
 }
 
-.author__urls li {
-  line-height: 1.4;
+/* Icon links in one row, on every screen size: the Follow drop-down goes. */
+.author__urls-wrapper button {
+  display: none !important;
+}
+
+.author__urls.social-icons {
+  display: flex !important;
+  position: static;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: auto;
+  margin: 1em auto 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+.author__urls.social-icons::before,
+.author__urls.social-icons::after {
+  display: none;
+}
+
+.author__urls.social-icons li {
+  margin: 0;
+}
+
+.author__urls.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: var(--muted);
+  background: #fff;
+  transition: color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+
+.author__urls.social-icons a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.author__urls.social-icons i {
+  margin: 0 !important;
+  font-size: 17px;
+  color: inherit !important;    /* one colour for all, not each brand's */
+}
+
+/* the label stays for screen readers; the icon and its tooltip are enough on screen */
+.author__url-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Phones and tablets: a smaller photo, so the page starts above the fold */
+@media (max-width: 63.9375em) {
+  .author__avatar {
+    display: block;
+  }
+
+  .author__avatar,
+  .author__avatar img {
+    max-width: 160px;
+  }
+
+  .sidebar {
+    margin-bottom: 2em;
+    padding-top: 0 !important;   /* greedy-navigation.js pads it once Follow is hidden */
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid var(--line);
+  }
 }
 
 @media (min-width: 64em) {
   #main.home-main .page__content {
-    margin-top: 4em;
+    margin-top: 2em;
   }
+}
+
+/* Paper titles read the same on Research and Policy, linked or not */
+.page__content ul.pub-list > li strong,
+.page__content ul.pub-list > li strong a {
+  color: var(--ink);
+}
+
+.page__content ul.pub-list > li strong a:hover {
+  color: var(--accent);
 }
